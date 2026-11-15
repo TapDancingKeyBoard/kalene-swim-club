@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join | Kalene Swim Club</title>
+<meta name="description" content="Join Kalene Swim Club in Lusaka. Send us your swimmer's details to get started.">
+<meta property="og:title" content="Join | Kalene Swim Club">
+<meta property="og:description" content="Join Kalene Swim Club in Lusaka. Send us your swimmer's details to get started.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&family=Archivo+Narrow:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="brand">Kalene <span>Swim Club</span></a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="join.html" class=on aria-current=page>Join</a></li><li><a href="contact.html">Contact</a></li></ul>
+  </div>
+</header>
+<main>
+<div class="page-hero"><div class="wrap"><h1>Join the club</h1><p>Getting started is simple.</p></div></div><div class="lanes"></div>
+<section><div class="wrap">
+  <div class="join-steps" style="margin-top:0">
+    <div><h3>Get in touch</h3><p>Send us your swimmer's name, age and current ability using the form below.</p></div>
+    <div><h3>Assessment</h3><p>A coach watches your swimmer in the water and places them in the right group.</p></div>
+    <div><h3>Start training</h3><p>Join your group's sessions and start building confidence in the pool.</p></div>
+  </div>
+</div></section>
+<section class="contact"><div class="wrap contact-grid">
+  <div><span class="label">Enquiry</span><h2>Register your interest</h2>
+  <p style="color:var(--muted)">Fill in the form and send it to us on Messenger. We'll reply with the next assessment date.</p></div>
+  <div>
+<form data-messenger="New member enquiry (website)" novalidate>
+<div><label>Parent / guardian name *<input type="text" data-label="Parent" required autocomplete="name"></label></div><div><label>Swimmer's name *<input type="text" data-label="Swimmer" required ></label></div><div><label>Swimmer's age *<input type="number" data-label="Age" required min="2" max="99"></label></div><div><label>Phone number *<input type="tel" data-label="Phone" required autocomplete="tel"></label></div><div><label>Programme<select data-label="Programme"><option>Learn to Swim</option><option>Stroke Development</option><option>Junior Squad</option><option>Competitive Squad</option><option>Not sure yet</option></select></label></div><div><label>Swimming ability<select data-label="Ability"><option>Cannot swim yet</option><option>Can swim a little</option><option>Swims all four strokes</option><option>Already races at galas</option></select></label></div><div><label>Anything else?<textarea data-label="Notes"></textarea></label></div>
+<p class="err" role="alert"></p>
+<button class="btn btn-lime" type="submit">Send on Messenger</button>
+<p class="form-note">This opens Facebook Messenger with your details filled in. Press send there to reach the club.</p>
+</form>
+<div class="sent" role="status">Messenger has opened in a new tab with your message. If the text is missing, paste it in: we copied it for you.</div>
+</div>
+</div></section>
+</main>
+<footer>
+  <div class="wrap foot">
+    <span>&copy; <span id="y"></span> Kalene Swim Club, Lusaka</span>
+    <span><a href="about.html">About</a> &middot; <a href="programmes.html">Programmes</a> &middot; <a href="join.html">Join</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="https://www.facebook.com/Kaleneswimclub/" target="_blank" rel="noopener">Facebook</a></span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
